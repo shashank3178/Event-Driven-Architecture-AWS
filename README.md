@@ -57,8 +57,8 @@ All services used in this project — S3, SNS, SQS, and Lambda — are part of t
 |------|--------------|
 | `sns-access-policy.json` | Grants S3 permission to publish to SNS |
 | `sqs-access-policy.json` | Grants SNS permission to send messages to SQS |
-| `sns-filter-policy.json` | Filters messages sent from SNS to SQS |
-| `lambda-iam-policy.json` | Defines Lambda’s execution role and permissions |
+| `subscription-filter-policy.json` | Filters messages sent from SNS to SQS |
+| `lambda-policy.json` | Defines Lambda’s execution role and permissions |
 
 ---
 
